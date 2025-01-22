@@ -48,9 +48,9 @@ async function getOffersFromUrl(url) {
 await getOffersFromUrl(INITIAL_URL);
 
 // get difference between offers and entries in offers.json file by "id"
-const existingOffers = JSON.parse(fs.readFileSync('offers.json', 'utf8'));
+const existingOffers = JSON.parse(fs.readFileSync('twingos.json', 'utf8'));
 const newOffers = offers.filter(offer => !existingOffers.some(o => o.id === offer.id));
 
 console.log('Found new offers:', newOffers);
 
-fs.writeFileSync('offers.json', JSON.stringify(offers, null, 2));
+fs.writeFileSync('twingos.json', JSON.stringify(offers, null, 2));
