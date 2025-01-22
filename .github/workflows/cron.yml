@@ -32,10 +32,19 @@ jobs:
           echo "SCRAPING_RESULT=$?" >> $GITHUB_STATE
           echo "Scraping exited with with $?"
 
-      - name: Do this step when step with node index.js returns 0
-        if: ${{ steps.scraping-twingos.outputs.SCRAPING_RESULT == 0 }}
-        run: |
-          echo "Sending email..."
+      - name: Do this step when step with node index.js returns 1
+        if: ${{ steps.scraping-twingos.outputs.SCRAPING_RESULT == 1 }}
+        uses: dawidd6/action-send-mail@v4
+        with:
+          server_address: smtp.gmail.com
+          server_port: 587
+          secure: true
+          username: ${{secrets.MAIL_USERNAME}}
+          password: ${{secrets.MAIL_PASSWORD}}
+          subject: New Twingos found!
+          to: machacekmartin@icloud.com
+          from: Twingo Finder
+          html_body: file://twingos-email.html
 
       # Save found twingos
       - name: Push found twingos in json file to the repository
