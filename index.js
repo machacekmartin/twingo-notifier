@@ -6,7 +6,7 @@ const INITIAL_URL = HOST + "/?hledat=twingo&hlokalita=60200&humkreis=999&cenaod=
 
 let offers = [];
 
-async function getOffersFromUrl(url) {
+async function getOffers(url) {
 	console.log('Scraping offers from', url);
 
 	const response = await fetch(url);
@@ -20,6 +20,7 @@ async function getOffersFromUrl(url) {
 		const title = $(offer).find('.inzeratynadpis .nadpis a').text();
 		const price = $(offer).find('.inzeratycena').text().trim();
 		const location = $(offer).find('.inzeratylok').text().replace(/(\p{L})(?=\d)/gu, '$1 ');
+		const image = $(offer).find('.inzeratynadpis img').attr('src');
 
 		if (!title.toLowerCase().includes('twingo')) {
 			return;
@@ -31,6 +32,7 @@ async function getOffersFromUrl(url) {
 			title,
 			price,
 			location,
+			image
 		});
 	});
 
@@ -38,19 +40,66 @@ async function getOffersFromUrl(url) {
 
 	if (nextPage.length > 0) {
 		const nextPageUrl = nextPage.first().attr('href');
-		await getOffersFromUrl(HOST + nextPageUrl);
+		await getOffers(HOST + nextPageUrl);
 		return;
 	}
 
 	console.log('Successfully scraped ' + offers.length + ' offers');
 }
 
-await getOffersFromUrl(INITIAL_URL);
+function saveJsonFile()
+{
+	fs.writeFileSync('twingos.json', JSON.stringify(offers, null, 2));
+}
 
-// get difference between offers and entries in offers.json file by "id"
+function saveEmailFile()
+{
+	let emailBody = `
+    <html>
+    <head>
+		<style>
+            body { font-family: Arial, sans-serif; }
+			th, td { padding: 10px; }
+        </style>
+    </head>
+    <body>
+        <p>NEW TWINGOS LETS GOOO [${newOffers.length}]</p>
+		<table style="width: 100%">	
+			<tr>
+				<td>Image</td>
+				<td>Title & Price</td>
+				<td>Location</td>
+				<td>Link</td>
+			</tr>
+			${newOffers.map(offer => `
+				<tr>
+					<td><img src="${offer.image}" alt="${offer.title}" width="140" height="140" style="object-fit: contain; background-color: #f3f2f2;"></td>
+					<td>
+						<strong>${offer.title}</strong><br>
+						<strong>${offer.price}</strong>
+					</td>
+					<td>${offer.location}</td>
+					<td><a href="${offer.link}" target="_blank">View listing</a></td>
+				</tr>
+			`).join('')}
+		</table>
+		<p>See ya</p>
+    </body>
+    </html>
+	`;
+
+	fs.writeFileSync('twingos-email.html', emailBody);
+}
+
+await getOffers(INITIAL_URL);
 const existingOffers = JSON.parse(fs.readFileSync('twingos.json', 'utf8'));
 const newOffers = offers.filter(offer => !existingOffers.some(o => o.id === offer.id));
 
-console.log('Found new offers:', newOffers);
-
-fs.writeFileSync('twingos.json', JSON.stringify(offers, null, 2));
+if (newOffers.length > 0) {
+	console.log('NEW TWINGOS LETS GOOO [', newOffers.length, ']');
+	saveEmailFile();
+	saveJsonFile();
+} else {
+	console.log('No new twingos for you.');
+	saveJsonFile();
+}
