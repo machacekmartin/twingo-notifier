@@ -33,7 +33,7 @@ jobs:
           echo "Scraping exited with with $OUTPUT"
 
       - name: Do this step when step with node index.js returns 1
-        if: ${{ steps.scraping-twingos.outputs.SCRAPING_RESULT == 1 }}
+        if: ${{ steps.scraping-twingos.outputs.SCRAPING_RESULT == '1' }}
         uses: dawidd6/action-send-mail@v4
         with:
           server_address: smtp.gmail.com
