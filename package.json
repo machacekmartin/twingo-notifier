@@ -1,0 +1,14 @@
+{
+  "name": "twingo-notifier",
+  "version": "1.0.0",
+  "description": "Scraper for twingos",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cheerio": "^1.0.0"
+  }
+}
