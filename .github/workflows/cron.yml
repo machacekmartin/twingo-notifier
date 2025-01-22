@@ -32,8 +32,8 @@ jobs:
           echo "SCRAPING_RESULT=$?" >> $GITHUB_STATE
           echo "Scraping exited with with $?"
 
-      - name: Do this step when step with node index.js returns 1
-        if: ${{ steps.scraping-twingos.outputs.SCRAPING_RESULT == 1 }}
+      - name: Do this step when step with node index.js returns 0
+        if: ${{ steps.scraping-twingos.outputs.SCRAPING_RESULT == 0 }}
         run: |
           echo "Sending email..."
 
