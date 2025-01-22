@@ -55,15 +55,15 @@ function saveJsonFile()
 function saveEmailFile()
 {
 	let emailBody = `
-    <html>
-    <head>
+	<html>
+	<head>
 		<style>
-            body { font-family: Arial, sans-serif; }
+			body { font-family: Arial, sans-serif; }
 			th, td { padding: 10px; }
-        </style>
-    </head>
-    <body>
-        <p>NEW TWINGOS LETS GOOO [${newOffers.length}]</p>
+		</style>
+	</head>
+	<body>
+		<p>NEW TWINGOS LETS GOOO [${newOffers.length}]</p>
 		<table style="width: 100%">	
 			<tr>
 				<td>Image</td>
@@ -84,8 +84,8 @@ function saveEmailFile()
 			`).join('')}
 		</table>
 		<p>See ya</p>
-    </body>
-    </html>
+	</body>
+	</html>
 	`;
 
 	fs.writeFileSync('twingos-email.html', emailBody);
@@ -97,13 +97,14 @@ const newOffers = offers.filter(offer => !existingOffers.some(o => o.id === offe
 
 if (newOffers.length > 0) {
 	console.log('NEW TWINGOS LETS GOOO [', newOffers.length, ']');
+
 	saveEmailFile();
 	saveJsonFile();
 
-	process.exit(1);
+	console.log('1');
 } else {
 	console.log('No new twingos for you.');
 	saveJsonFile();
 
-	process.exit(0);
+	console.log('0');
 }
