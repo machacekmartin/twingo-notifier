@@ -27,10 +27,13 @@ jobs:
       # Run the script
       - name: Scraping twingos...
         id: scraping-twingos
-        run: node index.js
+        run: |
+          node index.js
+          echo ::set-output name=exit_code::$?
+          echo "Scraping exited with with $?"
 
       - name: Do this step when step with node index.js returns 1
-        if: ${{ steps.scraping-twingos.result == '1' }}
+        if: steps.scraping-twingos.outputs.exit_code == 1
         run: |
           echo "Sending email..."
 
