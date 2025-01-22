@@ -45,6 +45,3 @@ jobs:
           commit_user_name: "GitHub Action"
           commit_user_email: "actions@github.com"
 
-      - name: Send email
-        uses: dawidd6/action-send-mail@v4
-
