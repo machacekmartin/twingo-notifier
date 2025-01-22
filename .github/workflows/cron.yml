@@ -6,7 +6,7 @@ on:
     - cron: "*/30 * * * *"  # This cron expression runs every 30 minutes
 
 jobs:
-  run-script:
+  find-me-a-twingo:
     runs-on: ubuntu-latest
 
     steps:
