@@ -99,7 +99,11 @@ if (newOffers.length > 0) {
 	console.log('NEW TWINGOS LETS GOOO [', newOffers.length, ']');
 	saveEmailFile();
 	saveJsonFile();
+
+	process.exit(1);
 } else {
 	console.log('No new twingos for you.');
 	saveJsonFile();
+
+	process.exit(0);
 }

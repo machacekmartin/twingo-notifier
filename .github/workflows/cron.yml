@@ -26,7 +26,13 @@ jobs:
 
       # Run the script
       - name: Scraping twingos...
+        id: scraping-twingos
         run: node index.js
+
+      - name: Do this step when step with node index.js returns 1
+        if: ${{ steps.scraping-twingos.result == '1' }}
+        run: |
+          echo "Sending email..."
 
       # Save found twingos
       - name: Push found twingos in json file to the repository
@@ -35,3 +41,7 @@ jobs:
           commit_message: "Pushing new twingos"
           commit_user_name: "GitHub Action"
           commit_user_email: "actions@github.com"
+
+      - name: Send email
+        uses: dawidd6/action-send-mail@v4
+
