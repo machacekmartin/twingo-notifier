@@ -7,7 +7,7 @@ const INITIAL_URL = HOST + "/?hledat=twingo&hlokalita=60200&humkreis=999&cenaod=
 let offers = [];
 
 async function getOffers(url) {
-	console.log('Scraping offers from', url);
+	// console.log('Scraping offers from', url);
 
 	const response = await fetch(url);
 	const responseText = await response.text();
@@ -44,7 +44,7 @@ async function getOffers(url) {
 		return;
 	}
 
-	console.log('Successfully scraped ' + offers.length + ' offers');
+	// console.log('Successfully scraped ' + offers.length + ' offers');
 }
 
 function saveJsonFile()
@@ -96,14 +96,14 @@ const existingOffers = JSON.parse(fs.readFileSync('twingos.json', 'utf8'));
 const newOffers = offers.filter(offer => !existingOffers.some(o => o.id === offer.id));
 
 if (newOffers.length > 0) {
-	console.log('NEW TWINGOS LETS GOOO [', newOffers.length, ']');
+	// console.log('NEW TWINGOS LETS GOOO [', newOffers.length, ']');
 
 	saveEmailFile();
 	saveJsonFile();
 
 	console.log('1');
 } else {
-	console.log('No new twingos for you.');
+	// console.log('No new twingos for you.');
 	saveJsonFile();
 
 	console.log('0');
