@@ -29,11 +29,11 @@ jobs:
         id: scraping-twingos
         run: |
           node index.js
-          echo ::set-output name=exit_code::$?
+          echo "SCRAPING_RESULT=$?" >> $GITHUB_STATE
           echo "Scraping exited with with $?"
 
       - name: Do this step when step with node index.js returns 1
-        if: steps.scraping-twingos.outputs.exit_code == 1
+        if: ${{ steps.scraping-twingos.outputs.SCRAPING_RESULT == 1 }}
         run: |
           echo "Sending email..."
 
