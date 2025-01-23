@@ -36,7 +36,7 @@ jobs:
         if: ${{ steps.scraping-twingos.outputs.scraping_result == 1 }}
         uses: dawidd6/action-send-mail@v4
         with:
-          server_address: smtp.gmail.com
+          server_address: smtp.mail.me.com
           server_port: 587
           secure: true
           username: ${{secrets.MAIL_USERNAME}}
