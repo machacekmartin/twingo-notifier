@@ -8,7 +8,6 @@ let offers = [];
 
 async function getOffers(url) {
 	// console.log('Scraping offers from', url);
-
 	const response = await fetch(url);
 	const responseText = await response.text();
 
@@ -43,17 +42,14 @@ async function getOffers(url) {
 		await getOffers(HOST + nextPageUrl);
 		return;
 	}
-
 	// console.log('Successfully scraped ' + offers.length + ' offers');
 }
 
-function saveJsonFile()
-{
+function saveJsonFile() {
 	fs.writeFileSync('twingos.json', JSON.stringify(offers, null, 2));
 }
 
-function saveEmailFile()
-{
+function saveEmailFile() {
 	let emailBody = `
 	<html>
 	<head>
@@ -100,7 +96,6 @@ const newOffers = offers.filter(offer => !existingOffers.some(o => o.id === offe
 
 if (newOffers.length > 0) {
 	// console.log('NEW TWINGOS LETS GOOO [', newOffers.length, ']');
-
 	saveEmailFile();
 	saveJsonFile();
 
@@ -108,6 +103,6 @@ if (newOffers.length > 0) {
 } else {
 	// console.log('No new twingos for you.');
 	saveJsonFile();
-
+	
 	console.log('0');
 }
