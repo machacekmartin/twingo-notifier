@@ -10,29 +10,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout the repository
-      - name: Checkout repository
+      - name: Twingo needs the repository
         uses: actions/checkout@v3
 
-      # Set up Node.js
-      - name: Twingo requires a node.js
+      - name: Twingo requires Node
         uses: actions/setup-node@v3
         with:
           node-version: '22'
 
-      # Install dependencies
       - name: Twingo requires packages
         run: npm install
 
-      # Run the script
       - name: Scraping twingos...
         id: scraping-twingos
         run: |
           OUTPUT=$(node index.js)
           echo "scraping_result=$OUTPUT" >> $GITHUB_OUTPUT
-          echo "Scraping exited with with $OUTPUT"
 
-      - name: Do this step when step with node index.js returns 1
+      - name: New twingos were found! Sending email...
         if: ${{ steps.scraping-twingos.outputs.scraping_result == 1 }}
         uses: dawidd6/action-send-mail@v4
         with:
@@ -45,11 +40,10 @@ jobs:
           from: Twingo Finder
           html_body: file://twingos-email.html
 
-      # Save found twingos
-      - name: Push found twingos in json file to the repository
+      - name: Pushing twingos (possible updates of twingos-email.html and twingos.json)
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Pushing new twingos"
+          commit_message: "Pushing twingos"
           commit_user_name: "GitHub Action"
           commit_user_email: "actions@github.com"
 
