@@ -1,7 +1,7 @@
 {
   "name": "twingo-notifier",
-  "version": "1.0.0",
-  "description": "Scraper for twingos",
+  "version": "69.42.0",
+  "description": "Very serious twingo finder",
   "main": "index.js",
   "type": "module",
   "scripts": {
