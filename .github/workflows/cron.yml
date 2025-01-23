@@ -31,12 +31,12 @@ jobs:
         if: ${{ steps.scraping-twingos.outputs.scraping_result == 1 }}
         uses: dawidd6/action-send-mail@v4
         with:
-          server_address: smtp.mail.me.com
-          server_port: 587
-          username: ${{secrets.MAIL_USERNAME}}
-          password: ${{secrets.MAIL_PASSWORD}}
+          server_address: ${{ vars.MAIL_SERVER_ADDRESS }}
+          server_port: ${{ vars.MAIL_SERVER_PORT }}
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
           subject: New Twingos found!
-          to: machacekmartin@icloud.com
+          to: ${{ vars.MAIL_TO }} 
           from: Twingo Finder
           html_body: file://twingos-email.html
 
