@@ -63,23 +63,26 @@ function saveEmailFile()
 		</style>
 	</head>
 	<body>
-		<p>NEW TWINGOS LETS GOOO [${newOffers.length}]</p>
 		<table style="width: 100%">	
 			<tr>
 				<td>Image</td>
-				<td>Title & Price</td>
+				<td>Twingo</td>
 				<td>Location</td>
 				<td>Link</td>
 			</tr>
 			${newOffers.map(offer => `
 				<tr>
-					<td><img src="${offer.image}" alt="${offer.title}" width="140" height="140" style="object-fit: contain; background-color: #f3f2f2;"></td>
+					<td><img src="${offer.image}" alt="${offer.title}" width="100" height="100" style="object-fit: contain; background-color: #f3f2f2;"></td>
 					<td>
-						<strong>${offer.title}</strong><br>
-						<strong>${offer.price}</strong>
+						<p>
+							${offer.title.length > 30 ? offer.title.substring(0, 30) + '...' : offer.title}
+							<br>
+							<br>
+							<strong>${offer.price}</strong>
+						</p>
 					</td>
 					<td>${offer.location}</td>
-					<td><a href="${offer.link}" target="_blank">View listing</a></td>
+					<td><a href="${offer.link}" target="_blank">Odkaz</a></td>
 				</tr>
 			`).join('')}
 		</table>
