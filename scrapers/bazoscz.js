@@ -4,7 +4,7 @@ const HOST = 'https://auto.bazos.cz'
 
 export async function scrape() {
     const offers = await retrieveOffersFrom(
-        HOST + "/?hledat=twingo&hlokalita=60200&humkreis=999&cenaod=10000&cenado=45000&order=1"
+        HOST + "/?hledat=twingo&rubriky=auto&cenaod=10000&cenado=50000"
     );
 
     return offers;
