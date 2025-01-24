@@ -15,14 +15,11 @@ const newOffers = allOffers.filter(offer => !existingOffers.some(o => o.id === o
 
 if (newOffers.length === 0) {
 	// No new twingos for you.
-	// Dont do anything.
 
 	console.log('0');
 }
 else {
 	// We found some new twingos yayy
-	// Append new twingos to json file
-	// Prepare email file with new twingos
 
 	appendNewOffersToJsonFile();
 	saveNewOffersToEmailFile();

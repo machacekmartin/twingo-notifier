@@ -14,7 +14,9 @@ async function retrieveOffers()
 
     const offers = results.map(result => ({
         id: 'sbazar-' + result.id,
-        link: 'https://www.sbazar.cz/sauto' + result.premise + '/detail/' + result.seo_name,
+        link: result.is_advert_mirroring ? 
+            'https://www.sbazar.cz/sauto/' + result.premise.seo_name + '/detail/' + result.seo_name :
+            'https://www.sbazar.cz/' + result.user.user_service.shop_url + '/detail/' + result.seo_name,
         title: result.name,
         price: result.price,
         location: result.locality.district,
