@@ -1,11 +1,17 @@
 # 🫶 FOR THE TWINGO 🫶
 
-Chces dostavat notifikacni maily jakmile na bazosi pribydou inzeraty na **Renault Twingo** v cenovem rozsahu **10-50k** v **999km okoli Brna**?
+Chces dostavat notifikacni maily jakmile pribydou inzeraty na **MK1 Renault Twingo**, anizby ti to muselo bezet na pozadi na kompu / serveru?
 
 Pokud jo tak vitej v klubiku a klidne si to forkni 💅
+<br/>
+
+> Aktualne to kontroluje jen Bazos a Sbazar, ale prolly jich pridam vic, zalezi jestli do te doby nejake nekoupim. Oboji ma limit na cenovy rozsah 10k - 50k.
+> Pod 10k by to byla sebevrazda a nad 50k je to pro takove trhadlo rodidel prilis overkill.
+
+
 
 ### Jak a proc???
-> TLDR; chci OG twingo a jsem linej.
+> TLDR; chci OG MK1 twingo a jsem linej.
 
 Nechce se mi klikat na bazosi a furt zjistovat jestli nejaka kraska nepribyla, tak jsem stvoril tuhle nadheru, ktera nepotrebuje ani hosting.
 Jakmile si to forknes tak musis nastavit par veci na githubu. 
@@ -28,9 +34,9 @@ Mimo pristupove udaje na smtp budes potrebovat jeste dat pravo ke zmenam repozit
 
 ```/ Repo / Settings / Actions / General / Workflow permissions - read and write```
 
-V akci ti pobezi cron, ktery kazdych 30 minut zjisti, jestli bazos nema nahodou nejake nove inzeraty na twingo, a pri kazdem zjisteni si ulozi vsechny inzeraty co nasel, tzn pushne ti to primo do repa.
+V github akci ti pobezi cron, ktery kazdych 30 minut spusti skript a zjisti, jestli nenasel nahodou nejake nove inzeraty, a vsechny nove twinga prida do json filu, tzn pushne ti to primo do repa.
 Jakmile najde nejake twingo, ktere nema v "databazi", tak ti posle mail, ve kterem jsou vylistovane ty nove inzeraty.
-Cely script je postaveny na hodne maly pocet vysledku. Pokud pozmenis filtry a budes chtit projizdet tisice zaznamu, tak je dost mozne ze to bazos ani nedovoli a blokne to.
+Cely skript je postaveny na hodne maly pocet vysledku. Pokud pozmenis filtry a budes chtit projizdet tisice zaznamu, tak je dost mozne ze to bazos/sbazar ani nedovoli a bude to blokovat.
 
 <sup><sub>enjoy</sup></sub>
 
