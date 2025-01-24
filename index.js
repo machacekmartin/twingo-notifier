@@ -6,7 +6,7 @@ const INITIAL_URL = HOST + "/?hledat=twingo&hlokalita=60200&humkreis=999&cenaod=
 
 let offers = [];
 
-async function getOffers(url) {
+async function scrapeOffers(url) {
 	// console.log('Scraping offers from', url);
 	const response = await fetch(url);
 	const responseText = await response.text();
@@ -39,17 +39,17 @@ async function getOffers(url) {
 
 	if (nextPage.length > 0) {
 		const nextPageUrl = nextPage.first().attr('href');
-		await getOffers(HOST + nextPageUrl);
+		await scrapeOffers(HOST + nextPageUrl);
 		return;
 	}
 	// console.log('Successfully scraped ' + offers.length + ' offers');
 }
 
-function saveJsonFile() {
+function saveOffersToJsonFile() {
 	fs.writeFileSync('twingos.json', JSON.stringify(offers, null, 2));
 }
 
-function saveEmailFile() {
+function saveNewOffersToEmailFile() {
 	let emailBody = `
 	<html>
 	<head>
@@ -90,19 +90,23 @@ function saveEmailFile() {
 	fs.writeFileSync('twingos-email.html', emailBody);
 }
 
-await getOffers(INITIAL_URL);
+await scrapeOffers(INITIAL_URL);
 const existingOffers = JSON.parse(fs.readFileSync('twingos.json', 'utf8'));
 const newOffers = offers.filter(offer => !existingOffers.some(o => o.id === offer.id));
 
-if (newOffers.length > 0) {
-	// console.log('NEW TWINGOS LETS GOOO [', newOffers.length, ']');
-	saveEmailFile();
-	saveJsonFile();
+if (offers.length === 0) {
+	// Do not save anything
 
-	console.log('1');
-} else {
-	// console.log('No new twingos for you.');
-	saveJsonFile();
-	
 	console.log('0');
+}
+else if (newOffers.length === 0) {
+	saveOffersToJsonFile();
+
+	console.log('0');
+}
+else {
+	saveNewOffersToEmailFile();
+	saveOffersToJsonFile();
+	
+	console.log('1');
 }
