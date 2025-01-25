@@ -5,7 +5,7 @@ Chces dostavat notifikacni maily jakmile pribydou inzeraty na **MK1 Renault Twin
 Pokud jo tak vitej v klubiku a klidne si to forkni 💅
 <br/>
 
-> Aktualne to kontroluje jen Bazos a Sbazar, ale prolly jich pridam vic, zalezi jestli do te doby nejake nekoupim. Oboji ma limit na cenovy rozsah 10k - 50k.
+> Aktualne to kontroluje jen Bazos a Sbazar a Sauto, ale prolly jich pridam vic, zalezi jestli do te doby nejake nekoupim. Oboji ma limit na cenovy rozsah 10k - 50k.
 > Pod 10k by to byla sebevrazda a nad 50k je to pro takove trhadlo rodidel prilis overkill.
 
 
