@@ -529,5 +529,23 @@
     "location": "Mladá Boleslav 295 01",
     "image": "https://www.bazos.cz/img/1t/228/195123228.jpg",
     "source": "bazos"
+  },
+  {
+    "id": "bazos-197199146",
+    "link": "https://auto.bazos.cz/inzerat/197199146/renolt-twingo.php",
+    "title": "Renolt Twingo",
+    "price": "42 000 Kč",
+    "location": "Plzeň-jih 335 61",
+    "image": "https://www.bazos.cz/img/1t/146/197199146.jpg?t=1737811340",
+    "source": "bazos"
+  },
+  {
+    "id": "sbazar-217326575",
+    "link": "https://www.sbazar.cz/milan.sinkora/detail/217326575-renault-twingo-12-lpg-rv-2010",
+    "title": "Renault Twingo 1.2 + LPG, R.v. 2010",
+    "price": 49900,
+    "location": "Děčín",
+    "image": "https://d46-a.sdn.cz/d_46/c_img_oV_C/kO5SPc8MrYECaJYU4CKMiM2/2837.jpeg?fl=exf|res,280,280,3|jpg,80,,1",
+    "source": "sbazar"
   }
 ]
