@@ -1,13 +1,16 @@
 import fs from 'fs';
 import { scrape as scrapeBazos } from './scrapers/bazoscz.js'
 import { scrape as scrapeSbazar } from './scrapers/sbazarcz.js'
+import { scrape as scrapeSauto } from './scrapers/sautocz.js'
 
 const bazosOffers = await scrapeBazos();
 const sbazarOffers = await scrapeSbazar();
+const sautoOffers = await scrapeSauto();
 
 const allOffers = [
 	...bazosOffers,
 	...sbazarOffers,
+	...sautoOffers,
 ]
 
 const existingOffers = JSON.parse(fs.readFileSync('twingos.json', 'utf8'));
