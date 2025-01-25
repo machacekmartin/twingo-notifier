@@ -14,10 +14,12 @@ async function retrieveOffers()
 
     const offers = results.map(result => ({
         id: 'sauto-' + result.id,
-        link: 'https://www.sauto.cz/' + 
-            result.category.seo_name + '/' + 
-            result.manufacturer_cb.seo_name + '/' + 
-            result.model_cb.seo_name + '/' + result.id,
+        link: 'https://www.sauto.cz/'
+            + result.category.seo_name + '/'
+            + 'detail/'
+            + result.manufacturer_cb.seo_name + '/'
+            + result.model_cb.seo_name + '/'
+            + result.id,
         title: result.name,
         price: result.price,
         location: result.locality.district,
