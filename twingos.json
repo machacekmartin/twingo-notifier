@@ -763,5 +763,14 @@
     "location": "Jablonec nad Nisou 466 01",
     "image": "https://www.bazos.cz/img/1t/423/197755423.jpg?t=1738753750",
     "source": "bazos"
+  },
+  {
+    "id": "sauto-207324117",
+    "link": "https://www.sauto.cz/osobni/detail/renault/twingo/207324117",
+    "title": "Renault Twingo, 1,2 i  Serviska,ABS,Isofix",
+    "price": 49900,
+    "location": "Olomouc",
+    "image": "https://d19-a.sdn.cz/d_19/c_img_gY_2/MLIX3G.jpeg?fl=exf|res,360,270,3|webp,75",
+    "source": "sauto"
   }
 ]
