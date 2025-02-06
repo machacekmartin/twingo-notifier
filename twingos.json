@@ -781,5 +781,23 @@
     "location": "Kladno 273 71",
     "image": "https://www.bazos.cz/img/1t/945/197769945.jpg?t=1738776108",
     "source": "bazos"
+  },
+  {
+    "id": "bazos-197796138",
+    "link": "https://auto.bazos.cz/inzerat/197796138/prevodovka-jr5308-renualt-twingo-15-dci.php",
+    "title": "Prevodovka JR5308 Renault Twingo 1.5 DCI",
+    "price": "16 000 Kč",
+    "location": "Jablonec nad Nisou 466 01",
+    "image": "https://www.bazos.cz/img/1t/138/197796138.jpg?t=1738833942",
+    "source": "bazos"
+  },
+  {
+    "id": "bazos-197759488",
+    "link": "https://auto.bazos.cz/inzerat/197759488/renault-twingo-12-i-serviskaabsisofix.php",
+    "title": "Renault Twingo 1.2 i Serviska,ABS,Isofix",
+    "price": "49 900 Kč",
+    "location": "Olomouc 783 91",
+    "image": "https://www.bazos.cz/img/1t/488/197759488.jpg?t=1738833354",
+    "source": "bazos"
   }
 ]
