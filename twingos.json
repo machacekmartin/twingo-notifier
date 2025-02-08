@@ -826,5 +826,23 @@
     "location": "Hradec Králové",
     "image": "https://d19-a.sdn.cz/d_19/c_img_oW_A/kObgaqJNMnujDqlPCSQ3sk/34a2.jpeg?fl=exf|res,360,270,3|webp,75",
     "source": "sauto"
+  },
+  {
+    "id": "bazos-197882533",
+    "link": "https://auto.bazos.cz/inzerat/197882533/renault-twingo-12i-43kw.php",
+    "title": "Renault Twingo, 1.2i 43kW",
+    "price": "48 000 Kč",
+    "location": "Hradec Králové 500 02",
+    "image": "https://www.bazos.cz/img/1t/533/197882533.jpg",
+    "source": "bazos"
+  },
+  {
+    "id": "sbazar-217816892",
+    "link": "https://www.sbazar.cz/autoneumann/detail/217816892-renault-twingo-12i-43kw",
+    "title": "Renault Twingo, 1.2i 43kW",
+    "price": 48000,
+    "location": "Hradec Králové",
+    "image": "https://d46-a.sdn.cz/d_46/c_img_oW_A/kObgaqJNMnB0llrnmCSQ77J/dda9.jpeg?fl=exf|res,280,280,3|jpg,80,,1",
+    "source": "sbazar"
   }
 ]
