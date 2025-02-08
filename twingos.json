@@ -817,5 +817,14 @@
     "location": "Benešov 258 01",
     "image": "https://www.bazos.cz/img/1t/508/197876508.jpg",
     "source": "bazos"
+  },
+  {
+    "id": "sauto-207945025",
+    "link": "https://www.sauto.cz/osobni/detail/renault/twingo/207945025",
+    "title": "Renault Twingo, 1.2i 43kW",
+    "price": 48000,
+    "location": "Hradec Králové",
+    "image": "https://d19-a.sdn.cz/d_19/c_img_oW_A/kObgaqJNMnujDqlPCSQ3sk/34a2.jpeg?fl=exf|res,360,270,3|webp,75",
+    "source": "sauto"
   }
 ]
