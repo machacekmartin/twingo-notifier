@@ -862,5 +862,14 @@
     "location": "Příbram 262 25",
     "image": "https://www.bazos.cz/img/1t/745/197979745.jpg",
     "source": "bazos"
+  },
+  {
+    "id": "sbazar-213068170",
+    "link": "https://www.sbazar.cz/AutoDELunicov/detail/213068170-renault-twingo-12-i-serviskaabsisofix",
+    "title": "Renault Twingo 1.2 i Serviska,ABS,Isofix",
+    "price": 49900,
+    "location": "Olomouc",
+    "image": "https://d46-a.sdn.cz/d_46/c_img_gX_7/1K6jug.jpeg?fl=exf|res,280,280,3|jpg,80,,1",
+    "source": "sbazar"
   }
 ]
