@@ -889,5 +889,14 @@
     "location": "Šumperk 787 01",
     "image": "https://www.bazos.cz/img/1t/617/198037617.jpg",
     "source": "bazos"
+  },
+  {
+    "id": "bazos-198043090",
+    "link": "https://auto.bazos.cz/inzerat/198043090/renault-twingo.php",
+    "title": "Renault Twingo",
+    "price": "15 000 Kč",
+    "location": "Kolín 289 11",
+    "image": "https://www.bazos.cz/img/1t/090/198043090.jpg",
+    "source": "bazos"
   }
 ]
