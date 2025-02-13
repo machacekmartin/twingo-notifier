@@ -934,5 +934,23 @@
     "location": "Olomouc 783 91",
     "image": "https://www.bazos.cz/img/1t/596/198141596.jpg",
     "source": "bazos"
+  },
+  {
+    "id": "bazos-198157963",
+    "link": "https://auto.bazos.cz/inzerat/198157963/renault-twingo-ii-rv-2010.php",
+    "title": "RENAULT TWINGO II RV 2010",
+    "price": "30 000 Kč",
+    "location": "Beroun 266 01",
+    "image": "https://www.bazos.cz/img/1t/963/198157963.jpg",
+    "source": "bazos"
+  },
+  {
+    "id": "sbazar-218026013",
+    "link": "https://www.sbazar.cz/nahradnidilyservisodtahovka/detail/218026013-renault-twingo-ii-rv-2010",
+    "title": "RENAULT TWINGO II RV 2010",
+    "price": 30000,
+    "location": "Beroun",
+    "image": "https://d46-a.sdn.cz/d_46/c_img_oW_B/nO1SBfAluis55quUCVgpFs/d4d9.jpeg?fl=exf|res,280,280,3|jpg,80,,1",
+    "source": "sbazar"
   }
 ]
