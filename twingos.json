@@ -916,5 +916,14 @@
     "location": "Benešov 258 01",
     "image": "https://www.bazos.cz/img/1t/146/198135146.jpg",
     "source": "bazos"
+  },
+  {
+    "id": "bazos-198137542",
+    "link": "https://auto.bazos.cz/inzerat/198137542/twingo.php",
+    "title": "Twingo",
+    "price": "28 000 Kč",
+    "location": "Karlovy Vary 362 35",
+    "image": "https://www.bazos.cz/obrazky/empty.gif",
+    "source": "bazos"
   }
 ]
