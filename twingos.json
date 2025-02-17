@@ -1042,5 +1042,14 @@
     "location": "Děčín 408 01",
     "image": "https://www.bazos.cz/img/1t/040/198310040.jpg",
     "source": "bazos"
+  },
+  {
+    "id": "bazos-198314488",
+    "link": "https://auto.bazos.cz/inzerat/198314488/twingo.php",
+    "title": "Twingo",
+    "price": "15 000 Kč",
+    "location": "Praha 1110 00",
+    "image": "https://www.bazos.cz/img/1t/488/198314488.jpg",
+    "source": "bazos"
   }
 ]
