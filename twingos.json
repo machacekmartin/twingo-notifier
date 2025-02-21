@@ -1141,5 +1141,14 @@
     "location": "Náchod 549 11",
     "image": "https://www.bazos.cz/img/1t/947/198498947.jpg",
     "source": "bazos"
+  },
+  {
+    "id": "bazos-198501000",
+    "link": "https://auto.bazos.cz/inzerat/198501000/twingo.php",
+    "title": "Twingo",
+    "price": "39 000 Kč",
+    "location": "Děčín 408 01",
+    "image": "https://www.bazos.cz/obrazky/empty.gif",
+    "source": "bazos"
   }
 ]
