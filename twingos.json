@@ -1150,5 +1150,14 @@
     "location": "Děčín 408 01",
     "image": "https://www.bazos.cz/obrazky/empty.gif",
     "source": "bazos"
+  },
+  {
+    "id": "bazos-198502632",
+    "link": "https://auto.bazos.cz/inzerat/198502632/renault-twingo-12.php",
+    "title": "Renault Twingo 1.2",
+    "price": "15 000 Kč",
+    "location": "Ostrava 700 30",
+    "image": "https://www.bazos.cz/img/1t/632/198502632.jpg?t=1740140227",
+    "source": "bazos"
   }
 ]
