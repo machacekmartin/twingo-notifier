@@ -1195,5 +1195,14 @@
     "location": "Děčín 408 01",
     "image": "https://www.bazos.cz/img/1t/354/198634354.jpg",
     "source": "bazos"
+  },
+  {
+    "id": "bazos-198640701",
+    "link": "https://auto.bazos.cz/inzerat/198640701/renault-twingo.php",
+    "title": "Renault Twingo",
+    "price": "25 000 Kč",
+    "location": "Litoměřice 412 01",
+    "image": "https://www.bazos.cz/img/1t/701/198640701.jpg?t=1740406434",
+    "source": "bazos"
   }
 ]
