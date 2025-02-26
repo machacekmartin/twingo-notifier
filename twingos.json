@@ -1258,5 +1258,14 @@
     "location": "Teplice 415 01",
     "image": "https://www.bazos.cz/img/1t/094/198717094.jpg",
     "source": "bazos"
+  },
+  {
+    "id": "sauto-208039913",
+    "link": "https://www.sauto.cz/osobni/detail/renault/twingo/208039913",
+    "title": "Renault Twingo, 1,2 43KW",
+    "price": 49000,
+    "location": "Rokycany",
+    "image": "https://d19-a.sdn.cz/d_19/c_img_oW_B/nOzqs9nZOdDqrDkTuCc2HrX/7b26.jpeg?fl=exf|res,360,270,3|webp,75",
+    "source": "sauto"
   }
 ]
