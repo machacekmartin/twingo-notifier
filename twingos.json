@@ -1267,5 +1267,23 @@
     "location": "Rokycany",
     "image": "https://d19-a.sdn.cz/d_19/c_img_oW_B/nOzqs9nZOdDqrDkTuCc2HrX/7b26.jpeg?fl=exf|res,360,270,3|webp,75",
     "source": "sauto"
+  },
+  {
+    "id": "bazos-198729213",
+    "link": "https://auto.bazos.cz/inzerat/198729213/renault-twingo-12-43kw-benzin-manual-43-kw.php",
+    "title": "Renault Twingo 1,2 43KW benzín manuál 43 kw",
+    "price": "49 000 Kč",
+    "location": "Rokycany 338 24",
+    "image": "https://www.bazos.cz/img/1t/213/198729213.jpg",
+    "source": "bazos"
+  },
+  {
+    "id": "sbazar-218450750",
+    "link": "https://www.sbazar.cz/abbrasy2/detail/218450750-renault-twingo-12-43kw-benzin-manualni",
+    "title": "Renault Twingo 1,2 43KW benzín manuální",
+    "price": 49000,
+    "location": "Rokycany",
+    "image": "https://d46-a.sdn.cz/d_46/c_img_oW_C/nOzqs9nZOdD1A3zTxCc3llp/2e18.jpeg?fl=exf|res,280,280,3|jpg,80,,1",
+    "source": "sbazar"
   }
 ]
