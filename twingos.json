@@ -1294,5 +1294,23 @@
     "location": "Olomouc 783 91",
     "image": "https://www.bazos.cz/img/1t/253/198731253.jpg",
     "source": "bazos"
+  },
+  {
+    "id": "bazos-198732726",
+    "link": "https://auto.bazos.cz/inzerat/198732726/renault-twingo-2008-klimatizace.php",
+    "title": "Renault Twingo 2008 klimatizace",
+    "price": "42 000 Kč",
+    "location": "Beroun 267 51",
+    "image": "https://www.bazos.cz/img/1t/726/198732726.jpg",
+    "source": "bazos"
+  },
+  {
+    "id": "sbazar-218454662",
+    "link": "https://www.sbazar.cz/autombb/detail/218454662-renault-twingo-2008-klimatizace",
+    "title": "Renault Twingo 2008 klimatizace",
+    "price": 42000,
+    "location": "Beroun",
+    "image": "https://d46-a.sdn.cz/d_46/c_img_oW_C/nOzqs9nZOdBXMR3T0Cc6EIT/9d46.mpo?fl=exf|res,280,280,3|jpg,80,,1",
+    "source": "sbazar"
   }
 ]
