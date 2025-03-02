@@ -1330,5 +1330,14 @@
     "location": "Benešov 258 01",
     "image": "https://www.bazos.cz/img/1t/690/198835690.jpg",
     "source": "bazos"
+  },
+  {
+    "id": "bazos-198903002",
+    "link": "https://auto.bazos.cz/inzerat/198903002/prodam-renault-twingo.php",
+    "title": "Prodám Renault Twingo",
+    "price": "14 000 Kč",
+    "location": "Klatovy 339 01",
+    "image": "https://www.bazos.cz/img/1t/002/198903002.jpg",
+    "source": "bazos"
   }
 ]
