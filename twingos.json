@@ -1366,5 +1366,23 @@
     "location": "Brno 602 00",
     "image": "https://www.bazos.cz/img/1t/708/198969708.jpg?t=1741021175",
     "source": "bazos"
+  },
+  {
+    "id": "bazos-198976748",
+    "link": "https://auto.bazos.cz/inzerat/198976748/renault-twingo.php",
+    "title": "Renault twingo",
+    "price": "23 000 Kč",
+    "location": "Opava 747 51",
+    "image": "https://www.bazos.cz/img/1t/748/198976748.jpg",
+    "source": "bazos"
+  },
+  {
+    "id": "sbazar-218621774",
+    "link": "https://www.sbazar.cz/havlica.m/detail/218621774-renault-twingo",
+    "title": "Renault twingo",
+    "price": 23000,
+    "location": "Opava",
+    "image": "https://d46-a.sdn.cz/d_46/c_img_oX_A/nOzqs9nZOdC1m45a4Cf8f25/d003.jpeg?fl=exf|res,280,280,3|jpg,80,,1",
+    "source": "sbazar"
   }
 ]
