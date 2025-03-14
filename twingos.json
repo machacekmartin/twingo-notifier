@@ -1564,5 +1564,14 @@
     "location": "Děčín 408 01",
     "image": "https://www.bazos.cz/img/1t/858/199488858.jpg",
     "source": "bazos"
+  },
+  {
+    "id": "sauto-208130903",
+    "link": "https://www.sauto.cz/osobni/detail/renault/twingo/208130903",
+    "title": "Renault Twingo, 1.2",
+    "price": 19000,
+    "location": "Hlavní město Praha",
+    "image": "https://d19-a.sdn.cz/d_19/c_img_oX_B/kb9Yg2GWeDo8QnVBCmPZ3T/de83.jpeg?fl=exf|res,360,270,3|webp,75",
+    "source": "sauto"
   }
 ]
