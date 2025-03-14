@@ -1582,5 +1582,23 @@
     "location": "Chomutov 431 63",
     "image": "https://www.bazos.cz/img/1t/132/199512132.jpg",
     "source": "bazos"
+  },
+  {
+    "id": "bazos-199514391",
+    "link": "https://auto.bazos.cz/inzerat/199514391/renault-twingo-12i-43kw.php",
+    "title": "Renault Twingo 1.2i 43KW",
+    "price": "39 000 Kč",
+    "location": "Kolín 280 02",
+    "image": "https://www.bazos.cz/img/1t/391/199514391.jpg",
+    "source": "bazos"
+  },
+  {
+    "id": "sauto-208133477",
+    "link": "https://www.sauto.cz/osobni/detail/renault/twingo/208133477",
+    "title": "Renault Twingo, 1.2i 43KW",
+    "price": 39000,
+    "location": "Kolín",
+    "image": "https://d19-a.sdn.cz/d_19/c_img_oX_B/nPw2pRkMOeC4jvZUXCmTx76/1134.jpeg?fl=exf|res,360,270,3|webp,75",
+    "source": "sauto"
   }
 ]
