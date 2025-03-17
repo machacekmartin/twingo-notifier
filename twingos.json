@@ -1627,5 +1627,23 @@
     "location": "Benešov 258 01",
     "image": "https://www.bazos.cz/img/1t/107/199589107.jpg",
     "source": "bazos"
+  },
+  {
+    "id": "bazos-199669455",
+    "link": "https://auto.bazos.cz/inzerat/199669455/renault-twingo-12-16v.php",
+    "title": "Renault Twingo 1,2 16V",
+    "price": "33 000 Kč",
+    "location": "Nový Jičín 743 01",
+    "image": "https://www.bazos.cz/img/1t/455/199669455.jpg",
+    "source": "bazos"
+  },
+  {
+    "id": "bazos-199668767",
+    "link": "https://auto.bazos.cz/inzerat/199668767/renault-twingo-15-dci.php",
+    "title": "Renault Twingo 1,5 DCi",
+    "price": "29 000 Kč",
+    "location": "Nový Jičín 743 01",
+    "image": "https://www.bazos.cz/img/1t/767/199668767.jpg",
+    "source": "bazos"
   }
 ]
