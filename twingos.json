@@ -1699,5 +1699,32 @@
     "location": "Most 434 01",
     "image": "https://www.bazos.cz/img/1t/100/199762100.jpg",
     "source": "bazos"
+  },
+  {
+    "id": "bazos-199822423",
+    "link": "https://auto.bazos.cz/inzerat/199822423/renault-twingo-3.php",
+    "title": "Renault Twingo 3",
+    "price": "29 000 Kč",
+    "location": "Chomutov 430 03",
+    "image": "https://www.bazos.cz/img/1t/423/199822423.jpg",
+    "source": "bazos"
+  },
+  {
+    "id": "bazos-199822189",
+    "link": "https://auto.bazos.cz/inzerat/199822189/renault-twingo.php",
+    "title": "Renault Twingo",
+    "price": "12 000 Kč",
+    "location": "Praha 9190 16",
+    "image": "https://www.bazos.cz/img/1t/189/199822189.jpg",
+    "source": "bazos"
+  },
+  {
+    "id": "sbazar-219153302",
+    "link": "https://www.sbazar.cz/martancv33/detail/219153302-renault-twingo-3",
+    "title": "Renault twingo 3",
+    "price": 29000,
+    "location": "Chomutov",
+    "image": "https://d46-a.sdn.cz/d_46/c_img_oX_B/kb9Yg2GWeDwkpqhSCp1vpF/e71c.jpeg?fl=exf|res,280,280,3|jpg,80,,1",
+    "source": "sbazar"
   }
 ]
