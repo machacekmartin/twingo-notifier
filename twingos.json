@@ -1861,5 +1861,14 @@
     "location": "Praha - západ 252 44",
     "image": "https://www.bazos.cz/img/1t/618/200083618.jpg",
     "source": "bazos"
+  },
+  {
+    "id": "bazos-200084121",
+    "link": "https://auto.bazos.cz/inzerat/200084121/renault-twingo-lll.php",
+    "title": "Renault Twingo lll",
+    "price": "29 000 Kč",
+    "location": "Chomutov 430 01",
+    "image": "https://www.bazos.cz/img/1t/121/200084121.jpg",
+    "source": "bazos"
   }
 ]
