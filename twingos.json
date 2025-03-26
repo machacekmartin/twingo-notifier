@@ -1888,5 +1888,32 @@
     "location": "Kladno 273 08",
     "image": "https://www.bazos.cz/img/1t/181/200097181.jpg?t=1742975677",
     "source": "bazos"
+  },
+  {
+    "id": "bazos-200114456",
+    "link": "https://auto.bazos.cz/inzerat/200114456/renault-twingo-12.php",
+    "title": "Renault Twingo 1.2",
+    "price": "22 000 Kč",
+    "location": "Ostrava 702 00",
+    "image": "https://www.bazos.cz/img/1t/456/200114456.jpg?t=1743000716",
+    "source": "bazos"
+  },
+  {
+    "id": "sauto-208197548",
+    "link": "https://www.sauto.cz/osobni/detail/renault/twingo/208197548",
+    "title": "Renault Twingo, 1.2 16V, ČR,1.maj, Serv.kniha",
+    "price": 20000,
+    "location": "Hlavní město Praha",
+    "image": "https://d19-a.sdn.cz/d_19/c_img_oX_B/nPw2pRkMOeCg8klq5CtTxsC/4d56.jpeg?fl=exf|res,360,270,3|webp,75",
+    "source": "sauto"
+  },
+  {
+    "id": "sauto-208197749",
+    "link": "https://www.sauto.cz/osobni/detail/renault/twingo/208197749",
+    "title": "Renault Twingo, 1.2",
+    "price": 22000,
+    "location": "Ostrava-město",
+    "image": "https://d19-a.sdn.cz/d_19/c_img_oX_B/nPw2pRkMOeDPr2CjICtUEUv/671c.jpeg?fl=exf|res,360,270,3|webp,75",
+    "source": "sauto"
   }
 ]
