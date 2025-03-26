@@ -1879,5 +1879,14 @@
     "location": "Kladno 273 64",
     "image": "https://www.bazos.cz/img/1t/293/200092293.jpg",
     "source": "bazos"
+  },
+  {
+    "id": "bazos-200097181",
+    "link": "https://auto.bazos.cz/inzerat/200097181/tvingo.php",
+    "title": "Twingo",
+    "price": "10 000 Kč",
+    "location": "Kladno 273 08",
+    "image": "https://www.bazos.cz/img/1t/181/200097181.jpg?t=1742975677",
+    "source": "bazos"
   }
 ]
