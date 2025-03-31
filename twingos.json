@@ -2068,5 +2068,23 @@
     "location": "Písek",
     "image": "https://d19-a.sdn.cz/d_19/c_img_oX_C/kb9Yg2GWeBsG3Yd1CwNYHZ/76d4.jpeg?fl=exf|res,360,270,3|webp,75",
     "source": "sauto"
+  },
+  {
+    "id": "bazos-200376329",
+    "link": "https://auto.bazos.cz/inzerat/200376329/renault-twingo-12-16v-43kw-rv-2000.php",
+    "title": "Renault Twingo 1.2 16V 43kw, r.v. 2000",
+    "price": "19 000 Kč",
+    "location": "Písek 397 01",
+    "image": "https://www.bazos.cz/img/1t/329/200376329.jpg?t=1743429473",
+    "source": "bazos"
+  },
+  {
+    "id": "bazos-200375375",
+    "link": "https://auto.bazos.cz/inzerat/200375375/renault-twingo.php",
+    "title": "Renault Twingo",
+    "price": "17 000 Kč",
+    "location": "Česká Lípa 471 17",
+    "image": "https://www.bazos.cz/img/1t/375/200375375.jpg",
+    "source": "bazos"
   }
 ]
