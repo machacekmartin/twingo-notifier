@@ -8,7 +8,7 @@ Pokud jo tak vitej v klubiku a klidne si to forkni 💅
 > Aktualne to kontroluje jen Bazos a Sbazar a Sauto, ale prolly jich pridam vic, zalezi jestli do te doby nejake nekoupim. Oboji ma limit na cenovy rozsah 10k - 50k.
 > Pod 10k by to byla sebevrazda a nad 50k je to pro takove trhadlo rodidel prilis overkill.
 
-
+<sup><sub>Btw -- Twingo jsem si už koupil, tak jsem pozastavil scheduler, aby mi to furt nehledalo nové a nové inzeráty. Pro zapnutí si v .github/workflows/cron.yml odkomentuj řádky 5 a 6, aby ti to fungovalo.</sup></sub>
 
 ### Jak a proc???
 > TLDR; chci OG MK1 twingo a jsem linej.
