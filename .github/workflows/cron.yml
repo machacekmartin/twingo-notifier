@@ -2,8 +2,8 @@ name: Finds twingos every 30 minutes
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "*/30 * * * *"  # This cron expression runs every 30 minutes
+  # schedule:
+    # - cron: "*/30 * * * *"  # This cron expression runs every 30 minutes
 
 jobs:
   find-twingos:
